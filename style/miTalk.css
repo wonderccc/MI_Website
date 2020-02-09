@@ -1,0 +1,152 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+	background-color: #fafafa;
+}
+#headTitle{
+	background-color: #333;
+	height: 40px;
+	font-size: 14px;
+	color: #b0b0b0;
+}
+#headTitle a{
+	color: #b0b0b0;
+	text-decoration: none;
+}
+#headTitle p{
+	padding: 10px 0 0 80px;
+}
+#span1{
+	padding: 10px 0 0 0;
+}
+#span2{
+	margin: 10px 0 0 800px;
+}
+
+/*轮播图片*/
+#lunbo{
+	width: 1200px; 
+    height: 560px; 
+    position: relative;
+    border: 3px solid #333;
+    overflow: hidden; 
+    margin: 20px 76px;
+    border: 0px;
+}
+
+#list{
+	width:8400px;
+    height:460px;
+    position:absolute; 
+    z-index:1;
+}
+
+#list img{
+	float:left;
+}
+
+#buttons{
+	position:absolute; 
+    height:10px; 
+    width:100px; 
+    z-index:2; 
+    bottom:30px; 
+    left:400px;
+}
+#buttons span{
+	cursor:pointer;/*假超链接样式*/ 
+    float:left; 
+    border:1px  solid #fff; 
+    width:10px;                 
+    height:10px;     
+    border-radius:10px; 
+    background: #333; 
+    margin-right:20px;
+}
+#buttons .on{
+	background-color: orangered;
+}
+.arrow{
+	cursor:pointer; 
+    display:none; 
+    line-height:39px; 
+    text-align:center; 
+    font-size:50px; 
+    font-weight: normal; 
+    width:40px; 
+    height:50px;  
+    position:absolute; 
+    z-index:2; 
+    top:240px;
+    padding-top: 10px;
+    /*background-color: #333;*/ 
+    color: #fff;
+    text-decoration: none;
+}
+
+.arrow:hover{
+	background-color: #ff4500;
+}
+#lunbo:hover .arrow{
+	display:block;
+}
+#prev{
+	left:20px;
+}
+#next{
+	right:20px;
+}
+
+/*三块下载区*/
+#xiazai{
+	height: 350px;
+	margin: 10px 0 0 76px;
+	text-align: center;
+}
+#xiazai #part{
+	float: left;
+	width: 392px;
+	height: 350px;
+	margin: 0 12px 0 0;
+	border: 1px solid #e6e6e6;
+    background-color: #fff;
+}
+#xiazai p{
+	font-family: 微软雅黑, 黑体, sans-serif;
+	font-size: 20px;
+	color: #000;
+	margin: 35px 0 25px 0;
+}
+#xiazai p span{
+	font-size: 16px;
+	color: #666;
+}
+
+
+
+
+/*底部栏*/
+#footer{
+	background-color: #f2f2f2;
+	text-align: center;
+	padding: 60px 0 60px 0;
+}
+#footer p{
+	font-size: 14px;
+	color: #666;
+}
+#footer a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #666;
+	margin: 0 20px 20px 10px;
+}
+#footer a:hover{
+	color: #f78200;
+}
+#footer #txt{
+	margin-top: 20px;
+}

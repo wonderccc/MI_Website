@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>小米账号-登录</title>
+	<link rel="stylesheet" type="text/css" href="style/login.css">
+	<script src="js/login.js"></script>
+</head>
+
+<body>
+	<div id="txtLogo">
+    <img src="img/logo.png"/>
+	<p id="p1"><a href="homePage.html" target="_self">小米科技</a></p>
+	<p id="p2">永远相信美好的事情即将发生</p>
+    </div>
+
+    <div id="bg">
+        <div id="container">
+		    <p id="headTitle" onclick="appear()">账号登录</p>
+		    <div id="userBox">
+		        <input class="smallBox" type="text" id="user" value="邮箱/会员账号/手机号" onclick="fade1()">
+	        </div>
+	        <div id="pswBox">
+		        <input class="smallBox" type="text" id="psw" value="请输入密码" onclick="fade2()">
+	        </div>
+	        <div id="rememberBox" onclick="appear()">
+	        	<input type="checkBox" name="cbRemember" size="100px">
+	        	<span> 记住账户名</sapn> 
+	        	<span class="blank"></span>
+	        	<a href="blank.html">忘记密码</a>
+	        </div>
+	            <input type="submit" name="submit" value="登录" id="loginBox" onclick="checkUserPsw()">
+	        <p id="registerBox">还没有小米账号？<a href="register.html">立即注册</a></p>
+	    </div>
+    </div>
+    <br/><br/>
+</body>
+</html>

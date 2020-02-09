@@ -1,0 +1,89 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	text-align: center;
+	font-family: arial, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+#container{
+	width: 860px;
+	height: 560px;
+	margin-left: 250px;
+	text-align: center;
+	background-color: #d3c6a6;
+}
+#p1{
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	font-size: 30px;
+	color: #333;
+}
+#smallBox{
+	width: 332px;
+	height: 246px;
+    margin-left: 264px;
+	text-align: center;
+}
+#p2{
+	text-align: left;
+	font-size: 14px;
+	color: #333;
+}
+#p3{
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #666;
+	text-align: left;
+}
+#selectBox{
+	width: 330px;
+	height: 40px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	font-size: 15px;
+	color: #555;
+}
+#telBox{
+	width: 330px;
+	height: 35px;
+	margin-top: 6px;
+	text-align: center;
+	font-size: 14px;
+	color: #808080;
+}
+#registerBox{
+	width: 334px;
+	height: 40px;
+	margin-top: 20px;
+	border-style: none;
+	font-size: 14px;
+	color: #fff;
+	background-color: #ff6700;
+}
+#registerBox:hover{
+	background-color: #ff936a;
+}
+#agreeBox{
+	margin-top: 50px;
+	color: #666;
+}
+#agreeBox p{
+	font-size: 14px;
+}
+#agreeBox a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #333;
+	font-weight: bold;
+}
+#footer{
+	padding-bottom: 30px;
+	margin-top: 30px;
+	font-size: 15px;
+	color: #666;
+}
+#footer p{
+	text-align: center;
+}

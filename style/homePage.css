@@ -1,0 +1,174 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+	background-color: #E3E3E3;
+}
+#headTitle{
+	background-color: #333;
+	height: 40px;
+	font-size: 14px;
+	color: #b0b0b0;
+}
+#headTitle a{
+	color: #b0b0b0;
+	text-decoration: none;
+}
+#headTitle p{
+	padding: 10px 0 0 80px;
+}
+#span1{
+	padding: 10px 0 0 0;
+}
+#span2{
+	margin: 10px 0 0 800px;
+}
+
+/*轮播图片*/
+#lunbo{
+	width: 1200px; 
+    height: 560px; 
+    position: relative;
+    border: 3px solid #333;
+    overflow: hidden; 
+    margin: 20px 76px;
+    border: 0px;
+}
+
+#list{
+	width:6000px;
+    height:560px;
+    position:absolute; 
+    z-index:1;
+}
+
+#list img{
+	float:left;
+}
+
+#buttons{
+	position:absolute; 
+    height:10px; 
+    width:100px; 
+    z-index:2; 
+    bottom:20px; 
+    left:60px;
+}
+#buttons span{
+	cursor:pointer;/*假超链接样式*/ 
+    float:left; 
+    border:1px  solid #fff; 
+    width:10px;                 
+    height:10px;     
+    border-radius:10px; 
+    background: #333; 
+    margin-right:5px;
+}
+#buttons .on{
+	background-color: orangered;
+}
+.arrow{
+	cursor:pointer; 
+    display:none; 
+    line-height:39px; 
+    text-align:center; 
+    font-size:36px; 
+    font-weight:bold; 
+    width:40px; 
+    height:50px;  
+    position:absolute; 
+    z-index:2; 
+    top:240px;
+    padding-top: 10px;
+    background-color: #333; 
+    color: #fff;
+    text-decoration: none;
+}
+
+.arrow:hover{
+	background-color: #ff4500;
+}
+#lunbo:hover .arrow{
+	display:block;
+}
+#prev{
+	left:20px;
+}
+#next{
+	right:20px;
+}
+
+/*发展史*/
+#history{
+	width: 1200px;
+	margin: 30px 0 30px 76px;
+	padding: 1px 0 0 0;
+	background-color: #EEDD82;
+}
+#history #title{
+	margin: 30px 0 0 0;
+	padding: 0 0 20px 0;
+	text-align: center;
+	font-size: 32px;
+	color: #333;
+}
+#history #txtBox{
+	float: left;
+	width: 600px;
+	height: 300px;
+	background-color: #4D4D4D;
+}
+#txtBox #txt{
+	margin: 70px 0 0 0;
+	font-size: 18px;
+	color: #fff;
+}
+#txtBox p{
+	margin-left: 160px;
+	font-family: 微软雅黑;
+}
+#txtBox #p1{
+	font-size: 30px;
+	margin-left: 160px;
+	margin-bottom: 10px;
+}
+#history img{
+	float: left;
+	width: 600px;
+	height: 300px;
+}
+
+#blank{
+	clear: both;
+	width: 100%;
+	height: 50px;
+}
+
+
+/*底部栏*/
+#footer{
+	clear: both;
+	background-color: #f2f2f2;
+	text-align: center;
+	padding: 60px 0 60px 0;
+	margin: 30px 0 0 0;
+}
+#footer p{
+	font-size: 12px;
+	color: #c5c6c8;
+}
+#footer a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #858585;
+	margin: 0 20px 20px 10px;
+}
+#footer a:hover{
+	color: #f78200;
+}
+#footer #txt{
+	margin-top: 20px;
+}
+

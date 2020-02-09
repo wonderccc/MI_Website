@@ -1,0 +1,125 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family:arial, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+	font-size: 20px;
+	color: black;
+}
+#txtLogo{
+	margin: 20px 0 20px 100px;
+}
+img{
+	float: left;
+	margin-top: 5px;
+}
+#p1 a{	
+	font-family: arial, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	color: #515151;
+	letter-spacing: 8px;
+	margin-bottom: 1px;
+	margin-left: 15px;
+	text-decoration: none;
+}
+#p2{
+	font-family: arial, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+	font-size: 1px;
+	font-weight: normal;
+	color: #808080;
+	margin-top: 1px;
+	letter-spacing: 0.1px;
+	margin-left: 60px;
+}
+#bg{
+	height: 518px;
+	background: url(../img/05.jpg);
+	margin-top: 10px;
+    padding-top: 1px;
+}
+#container{
+	width: 280px; 
+	margin:150px 0 0 950px;
+	padding-top: 1px;
+	padding-bottom: 50px;
+    background-color: white;
+}
+#headTitle{
+	font-size:28px;
+	padding-top: 20px;
+	margin: 20px 0 0 10px;
+	color: #f56600;
+	text-align: center;
+}
+#userBox{
+	border: solid 1px #808080;
+	width: 248px;
+	height: 30px;
+	margin: 10px;
+	padding-left: 6px;
+	padding-top: 2px;
+	background: url(../img/tubiao1.jpg) no-repeat left center;
+}
+#pswBox{
+	border: solid 1px #808080;
+	width: 248px;
+	height: 30px;
+	margin: 10px;
+	padding-left: 6px;
+	padding-top: 2px;
+	background: url(../img/tubiao2.jpg) no-repeat left center;
+}
+
+.smallBox{
+	width: 185px;
+	height: 18px;
+	padding: 3px;
+	border: 0px;
+	margin-left: 25px;
+	font-family: Arial,sans-serif;
+	font-size: 12px;
+	color: #808080;
+	outline: none;
+}
+#rememberBox{
+	margin: 10px;
+	margin-top: 20px;
+	font-family: Arial,sans-serif;
+	font-size: 15px;
+	color: #808080;
+	text-align: left;
+}
+span.blank{
+	padding-right: 75px;
+}
+#loginBox{
+	width: 256px;
+	height: 35px;
+	margin-left: 10px;
+	background-color: #ef5b00;
+	font-family: Arial,sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+#registerBox{
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	color: #808080;
+	margin: 10px;
+	padding-bottom: 30px;
+	text-align: left;
+}
+#registerBox a{
+	font-size: 13px;
+	color: #ef5b00;
+}
+
+#rememberBox a{
+	font-family: Arial,sans-serif;
+	font-size: 15px;
+	color: #808080;
+	text-align: center;
+	text-decoration: none;
+}

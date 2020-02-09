@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>小米账号-注册</title>
+	<link rel="stylesheet" type="text/css" href="style/register.css">
+	<script src="js/register.js"></script>
+</head>
+
+<body>
+	<div id="container">
+        <p><img src="img/logo.png" align="center" /></p>
+        <p id="p1">注册小米账号</p>
+        <div id="smallBox">
+            <p id="p2">国家/地区</p>
+            <select size="1" id="selectBox">
+    	        <option value="中国" selected>中国</option>
+                <option value="中国香港">中国香港</option>
+    	        <option value="中国台湾">中国台湾</option>
+                <option value="Brizil">Brizil</option>
+                <option value="India">India</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Malaysia">Malaysia</option>
+            </select>
+            <p id="p3">成功注册帐号后，国家/地区将不能被修改</p>
+            <p id="p2">手机号码</p>
+            <input type="text" name="tel" value="请输入手机号码" id="telBox" onclick="fade()"><br/>
+            <input type="submit" name="submit" value="立即注册" id="registerBox" onclick="checkTel()">
+        </div>
+        <div id="agreeBox">
+        <p><input type="checkBox" name="cbRemember" checked="checked" />注册帐号即表示您同意并愿意遵守小米<a href="http://www.miui.com/res/doc/eula/cn.html" target="_blank">用户协议</a>和<a href="http://www.miui.com/res/doc/privacy/cn.html" target="_blank">隐私政策</a></p>
+        </div>
+    </div>
+    <div id="footer" align="center">
+    <p>小米公司版权所有-京ICP备10046444-京公网安备11010802020134号-京ICP证110507号</p>
+    </div>
+</body>
+</html>
